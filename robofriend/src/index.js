@@ -7,7 +7,7 @@ import Card from './Card';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div>
+    <div className='bg-light-green dib br3 ma3 grow bw2 shadow-5'>
     <Card/>
     <Card/>
     <Card/>
