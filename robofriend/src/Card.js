@@ -1,5 +1,5 @@
 import React from 'react';
-
+const {}
 const Card = (props) => {
     return (
 

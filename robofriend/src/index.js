@@ -4,6 +4,7 @@ import './index.css';
 //import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Card from './Card';
+import CardList form './CardList'
 import 'tachyons';
 import { robots } from './robot'
 
