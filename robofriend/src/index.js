@@ -4,13 +4,13 @@ import './index.css';
 //import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Card from './Card';
-import CardList form './CardList'
+import CardList from './CardList';
 import 'tachyons';
 import { robots } from './robot'
 
 ReactDOM.render(
   <React.StrictMode>
-    <CardList/>
+    <CardList robots={robots}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
