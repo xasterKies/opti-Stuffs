@@ -8,7 +8,7 @@ import 'tachyons';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className='bg-light-green dib br3 pa3 ma3 grow bw2 shadow-5'>
+    <div>
     <Card/>
     <Card/>
     <Card/>
