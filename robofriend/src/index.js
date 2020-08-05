@@ -5,6 +5,7 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import Card from './Card';
 import 'tachyons';
+import robots from './robot'
 
 ReactDOM.render(
   <React.StrictMode>
