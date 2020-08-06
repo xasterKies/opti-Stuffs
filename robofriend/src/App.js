@@ -22,14 +22,14 @@ class App extends Component {
 
 
     render() {
-        const filterRobots = this.state.robots.filter(robot => {
+        const filteredRobots = this.state.robots.filter(robot => {
             return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
         })
         return (
             <div className='tc'>
                 <h1>RoboFriends</h1>
                 <SearchBox searchchange={this.onSearchchange}/>
-                <CardList robots={this.state.robots}/>
+                <CardList robots={filteredRobots}/>
             </div>
         );
     }
