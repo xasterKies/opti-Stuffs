@@ -9,7 +9,7 @@ import { robots } from './robot';
 ReactDOM.render(
   
   <React.StrictMode>
-    <CardList robots={robots}/>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

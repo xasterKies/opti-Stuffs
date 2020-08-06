@@ -1,9 +1,9 @@
 import React from 'react';
-const Card = () => {
+const App = () => {
     return (
-        
+        <CardList robots={robots}/>
     );
 
 }
 
-export default Card;
+export default App;
