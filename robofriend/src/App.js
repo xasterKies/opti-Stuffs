@@ -8,7 +8,10 @@ const state = {
     searchfield: ''
 }
 
-export App extends Component {
+class App extends Component {
+    constructor(){
+        
+    }
     render() {
         return (
             <div className='tc'>
