@@ -7,9 +7,8 @@ import 'tachyons';
 import { robots } from './robot';
 
 ReactDOM.render(
-  
   <React.StrictMode>
-    
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
