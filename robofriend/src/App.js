@@ -28,7 +28,7 @@ class App extends Component {
         return (
             <div className='tc'>
                 <h1>RoboFriends</h1>
-                <SearchBox searchchange={this.onSearchchange}/>
+                <SearchBox searchChange={this.onSearChange}/>
                 <CardList robots={filteredRobots}/>
             </div>
         );
