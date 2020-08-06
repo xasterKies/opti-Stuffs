@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 import CardList from './CardList';
 import 'tachyons';
-import { robots } from './robot'
+import { robots } from './robot';
 
 ReactDOM.render(
   <CardList robots={robots}/>,
