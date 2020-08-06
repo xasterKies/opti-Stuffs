@@ -1,7 +1,7 @@
 import React from 'react';
 import CardList from './CardList';
 import { robots } from './robot';
-import Search
+import SearchBox from './SearchBox';
 
 const App = () => {
     return (
