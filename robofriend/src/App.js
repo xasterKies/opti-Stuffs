@@ -3,14 +3,15 @@ import CardList from './CardList';
 import { robots } from './robot';
 import SearchBox from './SearchBox';
 
-const state = {
-    robots: robots,
-    searchfield: ''
-}
+
 
 class App extends Component {
     constructor(){
-        
+        super()
+        this.state = {
+            robots: robots,
+            searchfield: ''
+        }
     }
     render() {
         return (
