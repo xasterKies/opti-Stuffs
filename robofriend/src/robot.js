@@ -43,8 +43,8 @@ export const robots = [
     },
     {
         id: 8,
-        name: 'Michel Lebask',
-        username: 'Lebask',
-        email: 'lebask@april.biz'
+        name: 'Michel Salvador',
+        username: 'Michel',
+        email: 'M@april.biz'
     },
 ]
