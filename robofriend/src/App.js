@@ -16,7 +16,8 @@ class App extends Component {
     }
 
     componentDidMount(){
-        fetch('https://jsonplaceholder.typicode.com/u')
+        fetch('https://jsonplaceholder.typicode.com/users')
+        
     }
 
     onSearchChange = (event) => {
