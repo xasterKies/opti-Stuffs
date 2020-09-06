@@ -32,6 +32,12 @@ export const robots = [
     {
         id: 6,
         name: 'Chester Cofiled',
+        username: 'Chester',
+        email: 'lebask@april.biz'
+    },
+    {
+        id: 7,
+        name: 'Gabina Espino',
         username: 'Lebask',
         email: 'lebask@april.biz'
     },
