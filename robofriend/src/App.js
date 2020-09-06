@@ -23,7 +23,7 @@ class App extends Component {
         this.setState({ robots: users})
      })
     }
-})
+    
 
     onSearchChange = (event) => {
         this.setState({ searchfield: event.target.value })
