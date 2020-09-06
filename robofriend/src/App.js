@@ -15,6 +15,10 @@ class App extends Component {
         }
     }
 
+    componentDidMount(){
+        fetch('https://jsonplaceholder.')
+    }
+
     onSearchChange = (event) => {
         this.setState({ searchfield: event.target.value })
         console.log(event.target.value)
