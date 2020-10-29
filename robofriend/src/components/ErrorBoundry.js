@@ -8,8 +8,8 @@ export default class ErrorBoundry extends Component {
         }
     }
 
-    componentDidCatch() {
-        
+    componentDidCatch(error, info) {
+        this.setState({ hasError: true })
     }
 
     render() {
