@@ -6,8 +6,9 @@ import { createStore } from 'redux'
 import * as serviceWorker from './serviceWorker';
 import App from './containers/App';
 import 'tachyons';
+import { searchRobots } from './reducers';
 
-const store = createStore(rootReducer)
+const store = createStore(searchRobots)
 
 ReactDOM.render(
   <React.StrictMode>
