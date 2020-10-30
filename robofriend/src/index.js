@@ -11,7 +11,7 @@ import { searchRobots } from './reducers';
 const store = createStore(searchRobots)
 
 ReactDOM.render(
-  <React.StrictMode>
+<React.StrictMode>
     <App store={store}/>
   </React.StrictMode>,
   document.getElementById('root')
