@@ -3,4 +3,4 @@ const initialState = {
     searchField: ''
 }
 
-export const searchRobots = (state,)
+export const searchRobots = (state = initialState, action={})
