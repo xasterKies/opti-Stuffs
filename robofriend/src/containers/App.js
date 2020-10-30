@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux'
 import CardList from '../components/CardList';
 import { robots } from '../robot'; // soon removed
 import SearchBox from '../components/SearchBox';
