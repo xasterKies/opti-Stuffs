@@ -27,7 +27,6 @@ class App extends Component {
         super()
         this.state = {
             robots: robots,
-        searchfield: '',
         }
     }
 
@@ -41,14 +40,9 @@ class App extends Component {
     }
     
 
-    onSearchChange = (event) => {
-        this.setState({ searchfield: event.target.value })
-        console.log(event.target.value)
-    }
-
-
     render() {
-        const { robots, searchfield } = this.state;
+        const { robots } = this.state;
+        const { searchField } = this.props;
         const filteredRobots = robots.filter(robot => {
             return robot.name.toLowerCase().includes(searchfield.toLowerCase())
         })
