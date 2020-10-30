@@ -1,2 +1,4 @@
 
-const initialState
+const initialState = {
+    searchField: ''
+}
