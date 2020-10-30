@@ -12,7 +12,10 @@ const store = createStore(searchRobots)
 
 ReactDOM.render(
 <React.StrictMode>
+  <Provider>
     <App store={store}/>
+  </Provider>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
