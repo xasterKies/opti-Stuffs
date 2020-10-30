@@ -10,7 +10,9 @@ import ErrorBoundry from '../components/ErrorBoundry'
 import { setSearchField } from '../actions'
 
 const mapStateToProps = state => {
-    
+    return {
+        
+    }
 }
 
 class App extends Component {
