@@ -16,7 +16,7 @@ const mapStateToProps = state => {
 }
 
 const mapDispatchToProps = (dispatch) => {
-    onSearchChange: (event) => dispatch(setSearchField(event.target.value))
+    return onSearchChange: (event) => dispatch(setSearchField(event.target.value))
 }
 
 class App extends Component {
