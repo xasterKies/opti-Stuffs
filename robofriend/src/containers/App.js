@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import CardList from '../components/CardList';
-import { robots } from '../robot'; // soon removed
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll'
 import './App.css';
@@ -26,7 +25,7 @@ class App extends Component {
     constructor(){
         super()
         this.state = {
-            robots: [],
+            robots: []
         }
     }
 
