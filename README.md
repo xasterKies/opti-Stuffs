@@ -1,1 +1,3 @@
-Getting started with react framework
+Building react core based app.
+RoboFriend
+SmartBrain
