@@ -5,16 +5,28 @@ import Page2 from './components/Page2'
 import Page3 from './components/Page3' 
 
 
-function App() {
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      route: 'page1'
+    }
+  }
+
+  onRouteChange = (route) => {
+    this.setState({route: route})
+  }
+  render() {
   return (
     <div className="App">
 
      <h1>Hello pages</h1>
-     <Page1/>
-     <Page2/>
-     <Page3/>
+     <Page1 onRouteChange={this.onRouteChange}/>
+     <Page2 onRouteChange={this.onRouteChange}/>
+     <Page3 onRouteChange={this.onRouteChange}/>
     </div>
   );
+}
 }
 
 export default App;
