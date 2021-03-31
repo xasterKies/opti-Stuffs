@@ -17,15 +17,14 @@ class App extends Component {
     this.setState({route: route})
   }
   render() {
-  return (
-    <div className="App">
-
-     <h1>Hello pages</h1>
-     <Page1 onRouteChange={this.onRouteChange}/>
-     <Page2 onRouteChange={this.onRouteChange}/>
-     <Page3 onRouteChange={this.onRouteChange}/>
-    </div>
-  );
+    <h1>Hello pages</h1>
+    if (this.state.route === 'page1') {
+      return <Page1 onRouteChange={this.onRouteChange}/>
+    } else if (this.state.route === 'page2') {
+      return <Page2 onRouteChange={this.onRouteChange}/>
+    } else if (this.state.route === 'page3'){
+      return  <Page3 onRouteChange={this.onRouteChange}/>
+    } 
 }
 }
 
