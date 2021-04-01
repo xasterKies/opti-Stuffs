@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.css';
 import Page1 from './components/Page1' 
+import AsyncComponent from './components/AsyncComponent'
 
 
 class App extends Component {
@@ -29,21 +30,22 @@ class App extends Component {
     }
   }
   render() {
-    // <h1>Hello pages</h1>
-    // if (this.state.route === 'page1') {
-    //   return <Page1 onRouteChange={this.onRouteChange}/>
-    // } else if (this.state.route === 'page2') {
-    //   return <Page2 onRouteChange={this.onRouteChange}/>
-    // } else if (this.state.route === 'page3'){
-    //   return  <Page3 onRouteChange={this.onRouteChange}/>
-    // } 
-
-    //When actually adding codespliting
+    <h1>Hello pages</h1>
     if (this.state.route === 'page1') {
-      return <Page1 onRouteChange={this.onRouteChange} />
-    } else {
-      return <this.state.component onRouteChange={this.onRouteChange}/>
-    }
+      return <Page1 onRouteChange={this.onRouteChange}/>
+    } else if (this.state.route === 'page2') {
+      const AsyncPage2 = AsyncComponent()
+      return <Page2 onRouteChange={this.onRouteChange}/>
+    } else if (this.state.route === 'page3'){
+      return  <Page3 onRouteChange={this.onRouteChange}/>
+    } 
+
+    // //When actually adding codespliting
+    // if (this.state.route === 'page1') {
+    //   return <Page1 onRouteChange={this.onRouteChange} />
+    // } else {
+    //   return <this.state.component onRouteChange={this.onRouteChange}/>
+    // }
 }
 }
 
