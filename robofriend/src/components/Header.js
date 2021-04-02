@@ -5,3 +5,5 @@ class Header extends Component {
         return <h1 className='f1'>RoboFriends</h1>
     }
 }
+
+export default Header;
