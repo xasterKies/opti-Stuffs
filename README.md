@@ -1,3 +1,3 @@
-Building react core based app.
-RoboFriend
-SmartBrain
+# 🕴️ Senior Stuffs
+
+Essetial Developer concepts which focus on optimization and perfomance of web apps
